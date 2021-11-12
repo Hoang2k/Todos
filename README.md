@@ -2,7 +2,7 @@
 
 ## Thông tin cá nhân
 * Họ Tên : Đinh Văn Hoàng
-* Email: dinhvanhoang472000@.com
+* Email: dinhvanhoang472000@gmail.com
 
 ## Mô tả Project
 Sử dụng ngôn ngữ Javascript và thư viện Jquery để xây dựng
