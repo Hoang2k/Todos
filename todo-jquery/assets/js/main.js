@@ -1,4 +1,7 @@
 
+
+var btnUpdate=$(".update-btn");
+var  btnAdd=$(".btn-add")
 $(document).on('click','.btn-add',function() {
   var input=$(this).siblings('.todo-input').val();
   var todoList=`
@@ -27,6 +30,11 @@ $(document).on('click','.fa-edit',function() {
 
   var input=$('.todo-input');
   input.val(listText);
+  btnAdd.attr("display","none");
+  //console.log(btnAdd);
+  btnUpdate.attr("display","block");
+
+
 
 })
 // remove todo list script

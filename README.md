@@ -10,6 +10,8 @@ Sử dụng ngôn ngữ Javascript và thư viện Jquery để xây dựng
 ## Các tính năng trong Project
 *Có các tính năng cơ bản như :
 
++Hiển thị danh sách 
+
 +Thêm công việc cần làm
 
 +Sửa công việc
@@ -17,6 +19,21 @@ Sử dụng ngôn ngữ Javascript và thư viện Jquery để xây dựng
 +Xóa công việc.
 
 +Đánh dấu công việc đã hoàn thành 
+
++Đánh dấu tất cả công việc đã hoàn thành
+
++Xóa tất cả những công việc đã hoàn thành
+
++Đếm  số công việc chưa hoàn thành
+
++Lọc công việc như : tất cả,  đã hoàn thành, hưa hoàn thành  
+
++ Demo Giao diện :
++ ![img.png](img.png)
+           
+
+ 
+
 
 ##  Getting Set Up
 1.this repository on Github.

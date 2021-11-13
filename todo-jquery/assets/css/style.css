@@ -1,9 +1,12 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;;
+}
 .content{
     width: 650px;
     margin: auto;
     background-color: #E6E6E6;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     min-height: 750px;
    
 
@@ -13,9 +16,9 @@
 }
 .todo-header{
     height: 190px;
-    background-color: #2E64FE;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    background-color: #8881f7b3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     padding: 0 10px;
 }
 .todo-heading{
@@ -23,7 +26,9 @@
     color: #fff;
     font-size: 60px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-top: 23px;
+    margin-bottom: 18px;
+    padding-top: 18px;
 }
 .todo-input-wrap{
     display: flex;
@@ -35,10 +40,23 @@
     flex: 1;
     height: 40px;
     width: 85%;
+    padding-left: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid #c4c7cc;
+}
+.todo-input:focus{
+    box-shadow: rgb(134 215 247) 0px 0px 0px 2px;
+    outline: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: 1;
 }
 .btn-add{
     width: 80px;
-    height: 46px;
+    height: 44px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
     border: none;
     background-color: #298A08;
     color: #fff;
@@ -83,9 +101,9 @@ li:nth-child(odd){
     display: flex;
     justify-content: space-between;
     height: 46px;
-   border-bottom: 1px solid red;
-   font-size: 20px;
-   line-height: 46px;
+    border-bottom: 1px solid #A4A4A4;
+    font-size: 15px;
+    line-height: 46px;
    
 }
 
